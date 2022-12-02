@@ -23,7 +23,7 @@ _Some simple application scenarios:_
 
 _Download prohibited videos for data analysis, download without watermark for iOS (with[iOS built-in shortcut command APP](https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334)Cooperate with this project API to realize in-app download or read clipboard download), etc....._
 
-## 🖥Public site: I'm fragile...don't stress test (••᷄ࡇ•᷅ ）
+## 🖥Public site: I'm vulnerable...don't stress test (••᷄ࡇ•᷅ ）
 
 > **API-V2:**support input`Douyin|TikTok`Crawl the author's homepage \[homepage video data (remove watermark link, like video list (permission must be public), video comment data, background music video list data, etc...), please refer to the V2 document for details , the server response time sometimes becomes longer, please set the`timeout`Set the value high.
 
@@ -53,13 +53,13 @@ _Download prohibited videos for data analysis, download without watermark for iO
 
 > **_web_api.py:_**
 
--   Get request parameters and use`Scraper()`The class processes the data and returns it in the form of JSON, video downloads, quick calls with iOS shortcuts, and asynchronous support.
+-   Get request parameters and use`Scraper()`After the class processes the data, it returns in the form of JSON, video downloads, quick calls with iOS shortcut commands, and asynchronous support.
 
 > **_web_app.py:_**
 
--   为`web_api.py`as well as`scraper.py`A simple web program made to process the value entered in the web page and then use it`Scraper()`class processing and matching`web_api.py`The interface output is on the web page (similar to the separation of front and back ends)
+-   for`web_api.py`as well as`scraper.py`A simple web program made to process the value entered in the web page and then use it`Scraper()`class processing and matching`web_api.py`The interface output is on the web page (similar to the separation of front and back ends)
 
-**_Most of the parameters of the above files can be found in[config.ini](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/main/config.ini)make changes in_**
+**_Most of the parameters of the above files can be found in[config. ini](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/main/config.ini)make changes in_**
 
 ## 💡Project file structure
 
@@ -94,7 +94,7 @@ _Download prohibited videos for data analysis, download without watermark for iO
 
 * * *
 
-## 📦Call the parsing library:
+## 📦调用解析库:
 
 > 💡PyPi：<https://pypi.org/project/douyin-tiktok-scraper/>
 
@@ -269,8 +269,7 @@ docker compose pull && docker compose down && docker compose up -d
 
 ## ❤️ Contributors
 
-[![](https://github.com/Evil0ctal.png?size=50)](https://github.com/Evil0ctal)[![](https://github.com/jw-star.png?size=50)](https://github.com/jw-star)[![](https://github.com/Jeffrey-deng.png?size=50)](https://github.com/Jeffrey-deng)
-[![](https://github.com/chris-ss.png?size=50)](https://github.com/chris-ss)[![](https://github.com/weixuan00.png?size=50)](https://github.com/weixuan00)[![](https://github.com/Tairraos.png?size=50)](https://github.com/Tairraos)
+[![](https://github.com/Evil0ctal.png?size=50)](https://github.com/Evil0ctal)[![](https://github.com/jw-star.png?size=50)](https://github.com/jw-star)[![](https://github.com/Jeffrey-deng.png?size=50)](https://github.com/Jeffrey-deng)[![](https://github.com/chris-ss.png?size=50)](https://github.com/chris-ss)[![](https://github.com/weixuan00.png?size=50)](https://github.com/weixuan00)[![](https://github.com/Tairraos.png?size=50)](https://github.com/Tairraos)
 
 ## 📸Screenshot
 
@@ -308,7 +307,7 @@ Web main interface:
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Evil0ctal/Douyin_TikTok_Download_API&type=Timeline)](https://star-history.com/#Evil0ctal/Douyin_TikTok_Download_API&Timeline)
 
-[MIT License](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/Stable/LICENSE)
+[MY License](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/Stable/LICENSE)
 
 > Start: 2021/11/06
 > GitHub:[@Evil0ctal](https://github.com/Evil0ctal)Contact:[Evil0ctal1985@gmail.com](mailto:Evil0ctal1985@gmail.com)
